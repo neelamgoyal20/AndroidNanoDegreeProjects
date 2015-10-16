@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_nanodegree_apps">My Nanodegree Apps!</string>
+    <string name="btn_text_spotify_streamer">SPOTIFY STREAMER</string>
+    <string name="btn_text_scores_app">SCORES APP</string>
+    <string name="btn_text_library_app">LIBRARY APP</string>
+    <string name="btn_text_build_it_bigger">BUILD IT BIGGER</string>
+    <string name="btn_text_xyz_reader">XYZ READER</string>
+    <string name="btn_text_capstone">CAPSTONE: MY OWN APP</string>
+    <string name="msg_setting_clicked">No implementation as of now.</string>
+    <string name="msg_spotify_streamer_clicked">This button will launch my Spotify Streamer App!</string>
+    <string name="msg_scores_app_clicked">This button will launch my Scores App!</string>
+    <string name="msg_library_app_clicked">This button will launch my Library App!</string>
+    <string name="msg_build_it_bigger_clicked">This button will launch my Build It Bigger App!</string>
+    <string name="msg_xyz_reader_clicked">This button will launch my XYZ Reader App!</string>
+    <string name="msg_capstone_clicked">This button will launch my Capstone App!</string>
+    <string name="msg_random_click">Some random click received.</string>
+</resources>
