@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_color"
     android:orientation="vertical"
     tools:context=".LinkToMyAppsActivity">
 
@@ -22,6 +23,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <TextView
+        style="@style/TextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -41,50 +43,56 @@
 
         <Button
             android:id="@+id/btn_spotify_streamer"
+            style="@style/ButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
             android:onClick="onClick"
-            android:text="@string/btn_text_spotify_streamer"
-            android:layout_margin="@dimen/button_margin"/>
+            android:text="@string/btn_text_spotify_streamer" />
 
         <Button
             android:id="@+id/btn_scores_app"
+            style="@style/ButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
             android:onClick="onClick"
-            android:text="@string/btn_text_scores_app"
-            android:layout_margin="@dimen/button_margin"/>
+            android:text="@string/btn_text_scores_app" />
 
         <Button
             android:id="@+id/btn_library_app"
+            style="@style/ButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onClick"
             android:layout_margin="@dimen/button_margin"
+            android:onClick="onClick"
             android:text="@string/btn_text_library_app" />
 
         <Button
             android:id="@+id/btn_build_it_bigger"
+            style="@style/ButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onClick"
             android:layout_margin="@dimen/button_margin"
+            android:onClick="onClick"
             android:text="@string/btn_text_build_it_bigger" />
 
         <Button
             android:id="@+id/btn_xyz_reader"
+            style="@style/ButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onClick"
             android:layout_margin="@dimen/button_margin"
+            android:onClick="onClick"
             android:text="@string/btn_text_xyz_reader" />
 
         <Button
             android:id="@+id/btn_capstone"
+            style="@style/ButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onClick"
             android:layout_margin="@dimen/button_margin"
+            android:onClick="onClick"
             android:text="@string/btn_text_capstone" />
     </LinearLayout>
 
